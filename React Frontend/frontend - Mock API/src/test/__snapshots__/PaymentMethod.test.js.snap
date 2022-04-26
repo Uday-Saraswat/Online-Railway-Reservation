@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#D3D3D3",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
+  >
+    <center>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": 600,
+          }
+        }
+      >
+        <h5
+          className="card-header info-color white-text text-center py-4"
+          style={
+            Object {
+              "backgroundColor": " #0000FF ",
+            }
+          }
+        >
+          <strong
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+             
+            <h5>
+              Your Details
+            </h5>
+            <h6>
+               
+              Source :
+               
+              <input
+                readOnly={true}
+                style={
+                  Object {
+                    "backgroundColor": "#80aaff",
+                  }
+                }
+                type="text"
+                value={null}
+              />
+               
+            </h6>
+            <h6>
+               
+              Destination :
+               
+              <input
+                readOnly={true}
+                style={
+                  Object {
+                    "backgroundColor": "#80aaff",
+                  }
+                }
+                type="text"
+                value={null}
+              />
+            </h6>
+            <h6>
+               
+              No of Tickets :
+               
+              <input
+                readOnly={true}
+                style={
+                  Object {
+                    "backgroundColor": "#80aaff",
+                  }
+                }
+                type="text"
+                value={null}
+              />
+            </h6>
+             
+            <h6>
+               
+              Your Total Bill :
+               
+              <input
+                readOnly={true}
+                style={
+                  Object {
+                    "backgroundColor": "#80aaff",
+                  }
+                }
+                type="text"
+                value={0}
+              />
+            </h6>
+            Select the Payment Method
+            <br />
+          </strong>
+        </h5>
+        <div
+          className="card-body px-lg-5"
+        >
+          <form
+            className="text-center"
+            onSubmit={[Function]}
+            style={
+              Object {
+                "color": "#757575",
+              }
+            }
+          >
+            <div
+              className="custom-control custom-radio"
+            >
+              <input
+                className="custom-control-input"
+                id="creditcard"
+                name="method"
+                onChange={[Function]}
+                type="radio"
+                value="creditcard"
+              />
+              <label
+                className="custom-control-label"
+                for="creditcard"
+              >
+                Credit Card
+                <div>
+                  <img
+                    alt=""
+                    height="20"
+                    src="visalogo.png"
+                    width="50"
+                  />
+                  <img
+                    alt=""
+                    height="22"
+                    src="masterlogo.png"
+                    width="50"
+                  />
+                </div>
+              </label>
+            </div>
+            <div
+              className="custom-radio"
+            >
+              <input
+                className="custom-control-input"
+                id="mobilenum"
+                name="method"
+                onChange={[Function]}
+                type="radio"
+                value="mobile"
+              />
+              <label
+                className="custom-control-label"
+                for="mobilenum"
+              >
+                Mobile Number (Payment will added to the mobile bill)
+              </label>
+            </div>
+            <button
+              className="btn btn-outline-primary btn-rounded btn-block z-depth-0 my-4 waves-effect"
+              type="submit"
+            >
+              NEXT
+            </button>
+          </form>
+        </div>
+      </div>
+    </center>
+  </div>
+</div>
+`;

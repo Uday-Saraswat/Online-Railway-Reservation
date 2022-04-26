@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "background-color": "aquamarine",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
+  >
+    <center>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": 600,
+          }
+        }
+      >
+        <h5
+          className="card-header info-color white-text text-center py-4"
+          style={
+            Object {
+              "backgroundColor": " #00FF00 ",
+            }
+          }
+        >
+          <strong
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+             
+            Book Train Tickets Online
+             
+          </strong>
+        </h5>
+        <div
+          className="card-body px-lg-5"
+        >
+          <form
+            className="text-center"
+            onSubmit={[Function]}
+            style={
+              Object {
+                "color": "#757575",
+              }
+            }
+          >
+            <label>
+               From : 
+            </label>
+            <select
+              class="browser-default custom-select mb-4"
+              id="soList"
+              onChange={[Function]}
+            >
+              <option
+                disabled={true}
+                selected={true}
+                value=""
+              >
+                Choose option
+              </option>
+              <option
+                value="Howrah"
+              >
+                 Howrah 
+              </option>
+              <option
+                value="Kalka"
+              >
+                 Kalka 
+              </option>
+              <option
+                value="Chandigarh"
+              >
+                 Chandigarh 
+              </option>
+              <option
+                value="New Delhi"
+              >
+                 New Delhi 
+              </option>
+              <option
+                value="Agra"
+              >
+                 Agra 
+              </option>
+            </select>
+            <label>
+               To : 
+            </label>
+            <select
+              class="browser-default custom-select mb-4"
+              id="deList"
+              onChange={[Function]}
+            >
+              <option
+                disabled={true}
+                selected={true}
+                value=""
+              >
+                Choose option
+              </option>
+              <option
+                value="Howrah"
+              >
+                 Howrah 
+              </option>
+              <option
+                value="Kalka"
+              >
+                 Kalka 
+              </option>
+              <option
+                value="Chandigarh"
+              >
+                 Chandigarh 
+              </option>
+              <option
+                value="New Delhi"
+              >
+                 New Delhi 
+              </option>
+              <option
+                value="Agra"
+              >
+                 Agra 
+              </option>
+            </select>
+            <label>
+               No of Tickets : 
+            </label>
+            <input
+              className="form-control mb-4"
+              id="tickets"
+              onChange={[Function]}
+              placeholder="No of tickets"
+              type="text"
+            />
+            <button
+              className="btn btn-outline-primary btn-rounded btn-block z-depth-0 my-4 waves-effect"
+              type="submit"
+            >
+              NEXT
+            </button>
+          </form>
+        </div>
+      </div>
+    </center>
+  </div>
+</div>
+`;

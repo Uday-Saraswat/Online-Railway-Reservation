@@ -1,0 +1,50 @@
+server:
+  port: 8999
+eureka:
+  instance:
+    hostname: localhost
+  
+  
+spring:
+  application:
+    name: Api-gateway
+    
+  cloud:
+    gateway:
+      routes:
+
+      - id: Train-Service
+        uri: lb://Train-Service
+        predicates:
+        - Path=/trains/**
+
+      - id: Booking-Order-Service
+        uri: lb://Booking-Order-Service
+        predicates:
+        - Path=/orders/**
+
+      - id: IUP-Service
+        uri: lb://IUP-Service
+        predicates:
+        - Path=/iup/**
+
+      - id: registration
+        uri: lb://registration
+        predicates:
+        - Path=/register/**
+
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillieseconds: 5000
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:  hystrix.stream
+     

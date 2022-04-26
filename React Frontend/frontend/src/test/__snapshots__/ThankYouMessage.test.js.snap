@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <center>
+    <img
+      src="back7edit.jpg"
+      width="1000"
+    />
+  </center>
+</div>
+`;

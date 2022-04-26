@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="outer container"
+>
+  <div
+    className="inner"
+  >
+    <form>
+      <h3>
+        Register
+      </h3>
+      <div
+        className="form-group"
+      >
+        <label>
+          Mobile Number
+        </label>
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Enter mobile number"
+          type="text"
+        />
+        <p
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          
+        </p>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Email 
+        </label>
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Enter Email Id"
+          type="email"
+        />
+        <p
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          
+        </p>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          UserName
+        </label>
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Enter username"
+          type="text"
+        />
+        <p
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          
+        </p>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label>
+          Password
+        </label>
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Enter password"
+          type="password"
+        />
+        <p
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          
+        </p>
+      </div>
+      <button
+        className="btn btn-dark btn-lg btn-block"
+        onClick={[Function]}
+        type="submit"
+      >
+        Register
+      </button>
+      <p>
+        Have an account?  
+      </p>
+    </form>
+  </div>
+</div>
+`;

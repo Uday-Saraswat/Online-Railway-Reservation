@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#D3D3D3",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
+  >
+    <center>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": 600,
+          }
+        }
+      >
+        <h5
+          className="card-header info-color white-text text-center py-4"
+          style={
+            Object {
+              "backgroundColor": " #0000FF ",
+            }
+          }
+        >
+          <strong
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+             
+            <h2>
+               Your Bill : 
+               
+            </h2>
+          </strong>
+        </h5>
+        <div
+          className="logo"
+        >
+          <img
+            alt=""
+            height="180"
+            src="paytm.png"
+            width="450"
+          />
+        </div>
+        <h2>
+           Paytm Payment Gateway 
+        </h2>
+        <div
+          className="card-body px-lg-5"
+        >
+          <form
+            className="text-center"
+            onSubmit={[Function]}
+            style={
+              Object {
+                "color": "#757575",
+              }
+            }
+          >
+            <label>
+               Mobile Number : 
+            </label>
+            <input
+              className="form-control mb-4"
+              name="mobileno"
+              placeholder="Mobile Number"
+              type="text"
+            />
+            <label>
+               Four Digit PIN Number : 
+            </label>
+            <input
+              className="form-control mb-4"
+              name="fourdigitpin"
+              placeholder="Four Digit PIN Number"
+              type="text"
+            />
+            <label>
+               Amount : 
+            </label>
+            <input
+              className="form-control mb-4"
+              name="amount"
+              placeholder=""
+              readOnly={true}
+              type="text"
+              value={null}
+            />
+            <button
+              className="btn btn-outline-primary btn-rounded btn-block z-depth-0 my-4 waves-effect"
+              type="submit"
+            >
+              PROCEED
+            </button>
+          </form>
+        </div>
+      </div>
+    </center>
+  </div>
+</div>
+`;
